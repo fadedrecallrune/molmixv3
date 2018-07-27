@@ -1,0 +1,37 @@
+.montag-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.montag-container > p {
+  font-size: 12px;
+  margin: 0% 3% 2% 2%;
+}
+
+.montag-container > img {
+  width: 60%;
+}
+
+.montag-images, .montag-images2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.montag-images3 {
+  display: flex;
+}
+
+
+
+.montag-images2, .montag-images > img {
+  width: auto;
+  align-self: center;
+  margin-bottom: 2%;
+}
+
+.montag-group-image {
+  width: 20%;
+  margin-left: 30%;
+  align-self: center;
+}

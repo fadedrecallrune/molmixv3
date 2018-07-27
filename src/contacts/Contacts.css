@@ -1,0 +1,42 @@
+.contacts-container {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+
+.contacts-box {
+  display: flex;
+  margin-left: 2%;
+  margin-top: 5%;
+}
+
+@media(max-width:860px){
+  .contacts-box {
+    flex-direction: column;
+  }
+}
+
+
+.conacts-first-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts-first-box > p {
+  font-size: 12px;
+  margin-top: -3%;
+}
+
+.contacts-map-box {
+  width: 70%;
+  margin-bottom: 7%;
+  margin-left: 5%;
+}
+
+@media(max-width:860px){
+  .contacts-map-box {
+    width: 95%;
+    /* margin: 0; */
+    margin-left: 1%;
+  }
+}
