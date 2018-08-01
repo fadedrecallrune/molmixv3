@@ -9,6 +9,7 @@ import Footer from "./footer/Footer";
 import Contacts from "./contacts/Contacts";
 import Servis from "./servis/Servis";
 import Montag from "./montag/Montag";
+import Sravnenie from "./sravnenie/Sravnenie";
 
 class App extends Component {
   render() {
@@ -22,7 +23,7 @@ class App extends Component {
           <Route exact path='/contacts' component={Contacts} />
           <Route exact path='/servis' component={Servis} />
           <Route exact path='/montag' component={Montag} />
-
+          <Route exact path='/sravnenie' component={Sravnenie} />
 
           <Footer />
         </div>

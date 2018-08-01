@@ -13,3 +13,11 @@
 .servis-mecha {
   display: flex;
 }
+
+
+@media(max-width:415px){
+  .servis-container {
+    margin: 0;
+    padding: 3%;
+  }
+}

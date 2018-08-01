@@ -35,3 +35,30 @@
   margin-left: 30%;
   align-self: center;
 }
+
+@media(max-width:415px){
+  .montag-container {
+    width: 100vw;
+  }
+  .montag-images > img {
+    width: 90%;
+    align-self: center;
+  }
+  .montag-images2 > img {
+    width: 90%;
+    align-self: center;
+    margin-top: 20px;
+  }
+  .montag-images3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .montag-images3 > img {
+    width: 90%;
+  }
+  .montag-group-image {
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 30px;
+  }
+}

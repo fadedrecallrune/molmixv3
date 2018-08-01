@@ -3,7 +3,7 @@ import { Table } from "react-bootstrap";
 import "../Home.css";
 
 export const DirectionSecondTable = () => (
-  <Table striped hover responsive style={{ marginTop: "20px" }}>
+  <Table striped hover responsive style={{ marginTop: "20px", }}>
     <thead
       style={{ backgroundColor: "green", color: "white", fontSize: "12px" }}
     >
@@ -76,10 +76,10 @@ export const DirectionSecondTable = () => (
       <tr>
         <td>Общая масса</td>
         <td>[кг]</td>
-        <td> 600(310)</td>
+        <td>600(310)</td>
         <td>800(370)</td>
-        <td>1 200(490)</td>
-        <td>1 800(540)</td>
+        <td>1 200</td>
+        <td>1 800</td>
         <td>1 800</td>
         <td>2 400</td>
         <td>2 500</td>
@@ -87,29 +87,40 @@ export const DirectionSecondTable = () => (
       </tr>
 
       <tr>
-        <td>Размеры</td>
-        <td>Д [м] Ш [м] В [м]</td>
-        <td style={{ wordSpacing: "20px" }}> 2,2 2,0 2,6</td>
-        <td style={{ wordSpacing: "20px" }}>3,0 2,2 2,1</td>
-        <td style={{ wordSpacing: "20px" }}> 3,5 2,2 2,1</td>
-        <td style={{ wordSpacing: "20px" }}>4,0 2,2 2,6</td>
-        <td style={{ wordSpacing: "20px" }}> 4,0 2,2 2,6</td>
-        <td style={{ wordSpacing: "20px" }}>4,0 2,2 3,1</td>
-        <td style={{ wordSpacing: "20px" }}>5,2 2,4 3,1</td>
-        <td style={{ wordSpacing: "20px" }}>6,2 2,4 3,1</td>
+        <td rowSpan='3' style={{verticalAlign:'middle'}}>Размеры</td>
+        <td>Д [м]</td>
+        <td> 2,2 </td>
+        <td >3,0</td>
+        <td > 3,5</td>
+        <td >4,0</td>
+        <td > 4,0</td>
+        <td >4,0</td>
+        <td >5,2</td>
+        <td >6,2</td>
       </tr>
-
       <tr>
-        <td>Размеры</td>
-        <td>Ø×В [м]</td>
-        <td>2,1×2,5</td>
-        <td>2,4×2,4</td>
-        <td>2,4×2,8</td>
-        <td>2,4×3,2</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>Ш [м]</td>
+        <td>2,0</td>
+        <td>2,2</td>
+        <td>2,2</td>
+        <td>2,2</td>
+        <td>2,2</td>
+        <td>2,2</td>
+        <td>2,4</td>
+        <td>2,4</td>
+
+      </tr>
+      <tr>
+        <td>В [м]</td>
+        <td>2,6</td>
+        <td>2,1</td>
+        <td>2,1</td>
+        <td>2,6</td>
+        <td>2,6</td>
+        <td>3,1</td>
+        <td>3,1</td>
+        <td>3,1</td>
+
       </tr>
     </tbody>
   </Table>

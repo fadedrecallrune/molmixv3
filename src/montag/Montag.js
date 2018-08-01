@@ -40,7 +40,7 @@ const Montag = () => (
 
     <p>Надстройка для очистных сооружений используется, когда канализационная труба закопана ниже чем на 60см. Его высота выбирается таким образом, чтобы крышка станции стояла на уровне земли.</p>
 
-    <div className='montag-images3' className=''>
+    <div className='montag-images3'>
     <img className='montag-group-image' src={montag4} alt='' />
     <img src={montag10} alt='' />
 

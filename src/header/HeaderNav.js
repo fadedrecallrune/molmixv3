@@ -27,7 +27,7 @@ export const HeaderNav = () => {
       ГАЛЕРЕЯ
     </NavItem>
     <NavItem className='navlink' eventKey={3} href="#">
-     <Link to='/shipping'> ДОСТАВКА И ГАРАНТИЯ</Link>
+     <Link to='/shipping'> ДОСТАВКА</Link>
     </NavItem>
     <NavItem className='navlink' eventKey={4} href="#">
     <Link to='/montag'> МОНТАЖ</Link>
@@ -35,13 +35,13 @@ export const HeaderNav = () => {
     <NavItem className='navlink' eventKey={5} href="#">
      <Link to='/servis'> СЕРВИС </Link>
     </NavItem>
-    {/* <NavItem className='navlink' eventKey={6} href="#">
-      РЕАЛИЗОВАННЫЕ ОБЪЕКТЫ
-    </NavItem> */}
+    <NavItem className='navlink' eventKey={6} href="#">
+      <Link to='/sravnenie'> СРАВНЕНИЕ </Link>
+    </NavItem>
     {/* <NavItem className='navlink' eventKey={7} href="#">
       СЕРТИФИКАТЫ
     </NavItem> */}
-    <NavItem className='navlink' eventKey={6} href="#">
+    <NavItem className='navlink' eventKey={7} href="#">
      <Link to='/contacts'> КОНТАКТЫ </Link>
     </NavItem>
   </Nav>

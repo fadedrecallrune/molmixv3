@@ -3,7 +3,7 @@
   color: white;
   display: flex;
   width: auto;
-  height: 260px;
+  height: 290px;
   justify-content: space-between;
 }
 
@@ -36,6 +36,16 @@
   width: 33%;
   margin: 30px 0px 0px 20px;
 }
+.contacts-links{
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+.contacts-links > a {
+  margin: 0% 2%;
+  text-decoration: none;
+  color:white;
+}
 @media(max-width:680px){
   .contacts > p {
     font-size: 10px;
@@ -46,7 +56,10 @@
     width: 100%;
     margin: 5% 0 0 0%;
   }
-
+  .contacts-links {
+    justify-content: center;
+    margin-bottom: 30px;
+  }
   .contacts > p {
     text-align: center;
     font-size: 12px;
