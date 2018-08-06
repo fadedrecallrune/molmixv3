@@ -1,7 +1,8 @@
-.contacts-container {
+.contacts-container-box {
   display: flex;
   flex-direction: column;
   width: auto;
+  background-color: white;
 }
 
 .contacts-box {

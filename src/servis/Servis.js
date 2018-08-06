@@ -5,6 +5,7 @@ import mecha from '../images/1111.png'
 
 
 const Servis = () => (
+  <div className='servis'>
   <div className='servis-container'>
     <h2 style={{fontWeight:'900',}}>Cервис и ремонт</h2>
     <h6 style={{fontWeight:'700'}} >Ремонт и сервисное обслуживание септиков любых производителей.</h6>
@@ -36,6 +37,7 @@ const Servis = () => (
     <ul style={{marginBottom:'5%'}} >
       <li>Помимо сервиса наши специалисты могут произвести квалифицированный ремонт септитка (компрессор, блок и т.д.)</li>
     </ul>
+  </div>
   </div>
 )
 

@@ -2,7 +2,7 @@ import React from 'react'
 import './Contacts.css'
 
 const Contacts = () => (
-  <div className='contacts-container'>
+  <div className='contacts-container-box'>
     <h2 style={{marginLeft:'2%', fontWeight:'900'}}>Контакты</h2>
 
     <div className='contacts-box'>
@@ -17,7 +17,7 @@ const Contacts = () => (
         <p>Email: info@molmix.in.ua</p>
       </div> 
 
-      <div className='contacts-map-box'>
+      {/* <div className='contacts-map-box'>
         <h4>Карта проезда </h4>
         <iframe
         style={{width:'100%', height:'100%'}}
@@ -27,7 +27,7 @@ const Contacts = () => (
     &zoom=13&language=ru&q=Васильковская 34"
         allowfullscreen
       />
-      </div>
+      </div> */}
      </div>
   </div>
         

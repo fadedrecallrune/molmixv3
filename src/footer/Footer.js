@@ -28,8 +28,8 @@ const Footer = () => (
       <p>Email:info@molmix.in.ua</p>
       <div className='contacts-links'>
      <a href='https://www.facebook.com/molmix.in.ua/'> <i class="fab fa-facebook-f"></i></a>
-     <a href='https://www.facebook.com/molmix.in.ua/'> <i class="fab fa-instagram fa-lg"></i></a>
-     <a href='https://www.facebook.com/molmix.in.ua/'> <i class="fab fa-google"></i></a>
+     <a href='https://www.instagram.com/molmix3059/'> <i class="fab fa-instagram fa-lg"></i></a>
+     <a href='https://plus.google.com/u/0/105025753740440030443'> <i class="fab fa-google"></i></a>
      <a href='https://www.facebook.com/molmix.in.ua/'> <i  class="fab fa-youtube fa-lg"></i></a>
 
       </div>

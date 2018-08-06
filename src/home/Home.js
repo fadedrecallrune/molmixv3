@@ -10,7 +10,7 @@ import { Directions } from "./directions/Directions";
 import Footer from "../footer/Footer";
 
 export const Home = () => (
-  <div>
+  <div className='home-container' >
     <div className='header-image-box'>
     <Image
       className='header-image'
