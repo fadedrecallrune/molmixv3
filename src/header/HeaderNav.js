@@ -23,9 +23,9 @@ export const HeaderNav = () => {
     <NavItem className='navlink' eventKey={1} href="#">
     <Link to='/aboutus'>  О НАС</Link>
     </NavItem>
-    <NavItem className='navlink' eventKey={2} href="#">
+    {/* <NavItem className='navlink' eventKey={2} href="#">
       ГАЛЕРЕЯ
-    </NavItem>
+    </NavItem> */}
     <NavItem className='navlink' eventKey={3} href="#">
      <Link to='/shipping'> ДОСТАВКА</Link>
     </NavItem>
@@ -35,9 +35,9 @@ export const HeaderNav = () => {
     <NavItem className='navlink' eventKey={5} href="#">
      <Link to='/servis'> СЕРВИС </Link>
     </NavItem>
-    <NavItem className='navlink' eventKey={6} href="#">
+    {/* <NavItem className='navlink' eventKey={6} href="#">
       <Link to='/sravnenie'> СРАВНЕНИЕ </Link>
-    </NavItem>
+    </NavItem> */}
     {/* <NavItem className='navlink' eventKey={7} href="#">
       СЕРТИФИКАТЫ
     </NavItem> */}

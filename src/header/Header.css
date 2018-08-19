@@ -1,7 +1,6 @@
 .header {
   display: flex;
   height: 10vh;
-  /* background-color: red; */
 }
 @media(max-width:860px){
   .header {
@@ -82,15 +81,6 @@
   background-color: white;
   border-radius: 0;
 }
-
-
-
-
-/* @media(max-width: 600px){
-  .header-brand {
-    margin-left: 0px;
-  }
-} */
 
 
 .molmixlogo {

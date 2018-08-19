@@ -3,6 +3,7 @@
   flex-direction: column;
   width: auto;
   background-color: white;
+  margin-top: -20px;
 }
 
 .contacts-box {

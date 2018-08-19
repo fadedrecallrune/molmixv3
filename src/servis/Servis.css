@@ -1,5 +1,6 @@
 .servis {
   background-color: white;
+  margin-top: -20px;
 }
 .servis-container {
   display: flex;
